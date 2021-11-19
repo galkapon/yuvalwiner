@@ -1,8 +1,5 @@
 
 
-
-
-
 .title-bar{
   text-align: center;
   margin: 5% 0 0 5%;
@@ -14,16 +11,6 @@
   font-family: "Rubik", sans-serif;
   margin: 0;
   font-weight: 400;
-
-}
-
-@media screen and (max-width: 600px) {
-.main-title {
-  font-size: 6rem;
-  }
-  .title-links{
-  font-size: 3rem;
-  }
 
 }
 
@@ -41,6 +28,8 @@
   font-weight: 500;
   color: black;
 }
+
+
 
 .title-line{
   height: 1.8px;
@@ -117,4 +106,16 @@ font-size: 2rem;
 
 .contact-info{
   padding: 5%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+.main-title {
+  font-size: 4rem;
+  }
+  .title-links{
+  font-size: 3rem;
+  }
+
 }
